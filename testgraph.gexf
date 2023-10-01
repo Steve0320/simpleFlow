@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-09-30">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="from_pin" type="string" />
+      <attribute id="4" title="to_pin" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="fn" type="string" />
+      <attribute id="1" title="inputs" type="string" />
+      <attribute id="2" title="outputs" type="string" />
+    </attributes>
+    <nodes>
+      <node id="9df51a70-53df-4787-ad13-573c6e6ee2fb" label="9df51a70-53df-4787-ad13-573c6e6ee2fb">
+        <attvalues>
+          <attvalue for="0" value="input" />
+          <attvalue for="1" value="{}" />
+          <attvalue for="2" value="{'in': 'string'}" />
+        </attvalues>
+      </node>
+      <node id="7070ed70-d949-4cc3-8a81-f92adb524c6a" label="7070ed70-d949-4cc3-8a81-f92adb524c6a">
+        <attvalues>
+          <attvalue for="0" value="test_process" />
+          <attvalue for="1" value="{'a': 'string'}" />
+          <attvalue for="2" value="{'b': 'string'}" />
+        </attvalues>
+      </node>
+      <node id="128ee04d-ccd4-4184-aecd-9865517eb63c" label="128ee04d-ccd4-4184-aecd-9865517eb63c">
+        <attvalues>
+          <attvalue for="0" value="output" />
+          <attvalue for="1" value="{'out': 'string'}" />
+          <attvalue for="2" value="{}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="9df51a70-53df-4787-ad13-573c6e6ee2fb" target="7070ed70-d949-4cc3-8a81-f92adb524c6a" id="0">
+        <attvalues>
+          <attvalue for="3" value="in" />
+          <attvalue for="4" value="a" />
+        </attvalues>
+      </edge>
+      <edge source="7070ed70-d949-4cc3-8a81-f92adb524c6a" target="9df51a70-53df-4787-ad13-573c6e6ee2fb" id="1">
+        <attvalues>
+          <attvalue for="3" value="b" />
+          <attvalue for="4" value="out" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
